@@ -1,1 +1,28 @@
-"Hello World" 
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="startPage.css">
+    <script>
+      window.onload = function(){
+        document.getElementById("my_audio").play();
+      }
+    </script>
+  </head>
+
+  <body>
+    <h3>Welcome</h3>
+    <a onclick="window.location.href='same.html'">
+      <img src="./images/sameGame.png" alt="same" width="256" height="356">
+    </a>
+    <a onclick="window.location.href='snake.html'">
+      <img src="./images/snake.jpg" alt="snake" width="256" height="356">
+    </a>
+    <a onclick="window.location.href='dragMath.html'">
+      <img src="./images/dragAndDrop.jpg" alt="drag" width="256" height="356">
+    </a>
+      <audio id = "my_audio" src = "scream2.mp3">
+  </body>
+</html>
