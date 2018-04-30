@@ -132,12 +132,16 @@ Game.Draw = function(context, snake) {
 
       return;
     }
-    for (var i = 1; i > snake.stage.length.length; i++) {
+    for (var i = 1; i < snake.stage.length.length; i++) {
       var cell = snake.stage.length[i];
       if (cell.x == snake.stage.length[0].x && cell.y == snake.stage.length[0].y) {
+        
+
         if (snake.stage.score < localStorage.snakeScore) {
         localStorage.setItem("snakeScore", snake.stage.score);
         }
+
+
         snake.restart();
       }
     }

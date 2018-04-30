@@ -2,6 +2,7 @@ body {
   text-align:center;
   font-family: helvetica;
   background-color: blue;
+    color: lime;
 }
 canvas {
   border: 20px solid rgb(151, 0, 0);

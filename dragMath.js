@@ -25,7 +25,7 @@ function init() {
   shuffle(terms);
 
   // Create the card slots
-  var words = [ 'He was outstanding in his field. HAHAHAHA', '7 was a registered six offender', 'Baby dont hurt meee', 'Is it African or European? HAHAHA', 'Blue', 'People are always dying to get in', 'Omega', 'The state of Texas', 'You', 'Prefix operators' ];
+  var words = [ 'He was outstanding in his field. HAHAHAHA', '7 was a registered six offender', 'Baby dont hurt meee', 'Is it African or European? That is the real question.', 'Blue', 'People are always dying to get in', 'Omega', 'The fantastic wonderous flag of the United States state Texas', 'You', 'Prefix operators' ];
   for ( var i=1; i<=10; i++ ) {
     $('<div>' + words[i-1] + '</div>').data( 'number', i ).appendTo( '#cardSlots' ).droppable( {
       accept: '#cardPile div',
